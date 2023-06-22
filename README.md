@@ -29,6 +29,5 @@ In order to run the visualization of the bimanual system simply go to the root o
 python3 pybullet_simulation/franka_panda_simulation
 ```
 to launch the simulator. A scene with two Franka Panda, the left Arm and the Right Arm will appear
-![image](diagrams/environment.png)  
-fig 1. Rotate the camera by pressing ctrl+left_button while dragging the mouse, move the camera
+![image](Images/fig1.PNG)    Rotate the camera by pressing ctrl+left_button while dragging the mouse, move the camera
 by ctrl+Alt+left_button while dragging the mouse
