@@ -20,4 +20,15 @@ installations of python packages may be required.):
 https://phoenixnap.com/kb/how-to-install-python-3-ubuntu.`
 * To install pyBullet simply digit in a shell: `pip install pybullet`.  
 Consider the possibility of using a virtual machine for the simulator if you don’t have Ubuntu on your
-PC. Matlab can run on windows since the data are sended to the simulation using UDP communication.
+PC. Matlab can run on windows since the data are sended to the simulation using UDP communication.  
+
+The simulator
+-----------------
+In order to run the visualization of the bimanual system simply go to the root of the folder *bimanual_manipulation_exercise* and type in a shell 
+```bash
+python3 pybullet_simulation/franka_panda_simulation
+```
+to launch the simulator. A scene with two Franka Panda, the left Arm and the Right Arm will appear
+![image](diagrams/environment.png)  
+fig 1. Rotate the camera by pressing ctrl+left_button while dragging the mouse, move the camera
+by ctrl+Alt+left_button while dragging the mouse
